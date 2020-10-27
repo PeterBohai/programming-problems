@@ -18,9 +18,8 @@ def reverse_pythonic(self, x: int) -> int:
 	sign = 1 if x > 0 else -1
 	num_str = str(abs(x))
 	reversed_num = int(num_str[::-1]) * sign
-	if MIN_INT <= reversed_num <= MAX_INT:
-		return reversed_num
-	return 0
+
+	return reversed_num if MIN_INT <= reversed_num <= MAX_INT else 0
 
 """ Solution 2 (Standard)
 
@@ -50,9 +49,8 @@ def reverse_simple(self, x: int) -> int:
 		res = res * 10 + digit
 	
 	res *= sign
-	if MIN_INT <= res <= MAX_INT:
-		return res
-	return 0
+
+	return res if MIN_INT <= res <= MAX_INT else 0
 
 
 """ Solution 3 (Standard + Better Conditional Checks)
