@@ -11,7 +11,7 @@
 	drawbacks: 
 	 - extra O(N) operations (converting a string to and from integer all take linear time)
 """
-def reverse_pythonic(self, x: int) -> int:
+def reverse_pythonic(x: int) -> int:
 	MAX_INT = 2 ** 31 - 1
 	MIN_INT = -2 ** 31
 	
@@ -34,7 +34,7 @@ def reverse_pythonic(self, x: int) -> int:
 	drawbacks: 
 	 - does not address range constraint in the most accurate sense
 """
-def reverse_simple(self, x: int) -> int:
+def reverse_simple(x: int) -> int:
 	MAX_INT = 2 ** 31 - 1
 	MIN_INT = -2 ** 31
 	
@@ -64,7 +64,7 @@ def reverse_simple(self, x: int) -> int:
 	Time: O(N), O(log(X)) --> N is the number of digits in X
 	Space: O(1)
 """
-def reverse_very_advanced(self, x: int) -> int:
+def reverse_very_advanced(x: int) -> int:
 	MAX_INT = 2 ** 31 - 1		# 2147483647
 	MIN_INT = -2 ** 31			# -2147483648
 	LAST_MAX_INT_DIGIT = MAX_INT % 10	# 7
