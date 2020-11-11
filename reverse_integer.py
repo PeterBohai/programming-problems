@@ -1,3 +1,5 @@
+# Video Explanation: https://youtu.be/lrKt9V_hRck
+
 """ Solution 1 (Pythonic)
 
 	1) Convert the integer into a string
