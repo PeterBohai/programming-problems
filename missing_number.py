@@ -1,4 +1,4 @@
-# Video Explanation:
+# Video Explanation: https://youtu.be/i0WwsQYrMAM
 
 """ Solution 1 (Sorting)
 
