@@ -5,7 +5,7 @@ This is a repository containing all the programming problem solutions I have exp
 
 ## Contact
 
-YouTube Channel: https://www.youtube.com/channel/UC0hD-WYOogWBPt1Q0OiLAPw
+YouTube Channel: https://www.youtube.com/channel/UC0hD-WYOogWBPt1Q0OiLAPw <br/>
 Email: peterbohai@gmail.com
 
 If you any questions please feel free to contact me by commenting on my YouTube videos or emailing me, Thanks!
